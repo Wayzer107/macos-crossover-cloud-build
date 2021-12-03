@@ -28,7 +28,7 @@ jobs:
       matrix:
         CROSS_OVER_VERSION: [21.0.0] # , 20.0.4, 20.0.2, 20.0.1, 20.0.0, 19.0.2]
 
-    runs-on:  macos-10.15
+    runs-on:  self-hosted
 
     env:
       # crossover source code to be downloaded
